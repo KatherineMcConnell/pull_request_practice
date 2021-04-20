@@ -42,3 +42,17 @@
  * git checkout main - Switch back to the main branch.
 
  * git pull origin main - Make sure that you have the most recent changes that you made on your local main branch.
+
+### Change Default Branch Name of Existing Repository
+
+##### Locally:
+ * git branch -m master main
+ * git push -u origin main
+
+##### Github:
+ * Head to the repository on github.com
+ * Click on the Settings Tab
+ * Click on Branches on the left panel
+ * Change the default branch to main and click update
+
+You can now safely delete both the local master and remote master branches.
